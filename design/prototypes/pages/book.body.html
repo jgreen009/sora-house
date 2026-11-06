@@ -1,0 +1,179 @@
+<section class="page-head">
+  <div class="container">
+    <div class="page-head__inner">
+      <div class="page-head__title reveal">
+        <span class="eyebrow">Book your stay</span>
+        <h1 class="display-l" style="margin-top:16px">Make time for a stay</h1>
+      </div>
+      <div class="page-head__aside reveal" data-delay="1">
+        <p class="body-s text-muted">Choose your dates and room to review your stay. Online reservations are not yet available.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight" style="padding-top:0">
+  <div class="container">
+    <div class="booking-layout" data-booking>
+      <!-- ---------------------------------------------------- main -->
+      <div class="booking-main">
+        <div class="progress" role="list" aria-label="Booking progress">
+          <div class="progress__step" role="listitem" data-step="1"><b>1</b> Dates</div>
+          <span class="progress__bar" aria-hidden="true"></span>
+          <div class="progress__step" role="listitem" data-step="2"><b>2</b> Room</div>
+          <span class="progress__bar" aria-hidden="true"></span>
+          <div class="progress__step" role="listitem" data-step="3"><b>3</b> Review</div>
+          <span class="progress__bar" aria-hidden="true"></span>
+          <div class="progress__step" role="listitem" data-step="4"><b>4</b> Details</div>
+        </div>
+
+        <div class="steps">
+          <!-- STEP 1 -->
+          <div class="step-panel is-active" data-step="1">
+            <div class="panel">
+              <h2 class="display-s panel__title">When will you stay?</h2>
+              <p class="panel__hint">Arrival can be today or later. Stays run from one to fourteen nights, one room per booking.</p>
+              <div class="field-grid">
+                <div class="field--inline">
+                  <label for="bk-arrival">Arrival</label>
+                  <input type="date" id="bk-arrival" data-field="checkin" aria-describedby="error-checkin" >
+                  <p class="error" id="error-checkin" data-error="checkin" role="alert"></p>
+                </div>
+                <div class="field--inline">
+                  <label for="bk-departure">Departure</label>
+                  <input type="date" id="bk-departure" data-field="checkout" aria-describedby="error-checkout" >
+                  <p class="error" id="error-checkout" data-error="checkout" role="alert"></p>
+                </div>
+                <div class="field--inline field--full">
+                  <label for="bk-guests">Guests</label>
+                  <select id="bk-guests" data-field="guests" aria-describedby="error-guests">
+                    <option>1</option>
+                    <option selected>2</option>
+                    <option>3</option>
+                  </select>
+                  <p class="hint">The Sora Suite sleeps three. All other rooms sleep two.</p>
+                  <p class="error" id="error-guests" data-error="guests" role="alert"></p>
+                </div>
+              </div>
+              <div class="step-actions">
+                <span></span>
+                <button class="btn" type="button" data-next data-validate>See the rooms</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 2 -->
+          <div class="step-panel" data-step="2">
+            <div class="panel">
+              <h2 class="display-s panel__title">Choose your room</h2>
+              <p class="panel__hint">Choose a room for your stay. Nightly rates include breakfast.</p>
+
+              {{ROOM_OPTIONS}}
+              <p class="booking-error" id="room-choice-error" data-room-error role="alert"></p>
+              <p class="body-s text-muted">Room choices are shown by guest capacity. Availability will need to be confirmed when reservations open.</p>
+
+              <div class="step-actions">
+                <button class="btn btn--ghost" type="button" data-prev>Back</button>
+                <button class="btn" type="button" data-next>Review your stay</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 3 -->
+          <div class="step-panel" data-step="3">
+            <div class="panel">
+              <h2 class="display-s panel__title">Review your stay</h2>
+              <p class="panel__hint">Review your room, dates, and total below. Contact details are optional and are not sent.</p>
+              <div class="field-grid">
+                <div class="field--inline">
+                  <label for="bk-name">Name</label>
+                  <input type="text" id="bk-name" placeholder="Optional">
+                </div>
+                <div class="field--inline">
+                  <label for="bk-email">Email</label>
+                  <input type="email" id="bk-email" placeholder="Optional">
+                </div>
+                <div class="field--inline field--full">
+                  <label for="bk-note">Anything we should know?</label>
+                  <textarea id="bk-note" placeholder="A late arrival, a dietary note, a birthday."></textarea>
+                </div>
+              </div>
+
+              <div class="stay-card" style="margin-top:32px">
+                <div class="stay-card__row"><span>Room</span><span data-summary-room>—</span></div>
+                <div class="stay-card__row"><span>Arrival</span><span data-summary-in>—</span></div>
+                <div class="stay-card__row"><span>Departure</span><span data-summary-out>—</span></div>
+                <div class="stay-card__row"><span>Length of stay</span><span data-nights>—</span></div>
+                <div class="stay-card__row"><span>Guests</span><span data-summary-guests>2</span></div>
+                <div class="stay-card__row"><span>Rate</span><span data-rate>—</span></div>
+                <div class="stay-card__row total"><span>Total, including breakfast</span><b data-total>—</b></div>
+              </div>
+
+              <div class="step-actions">
+                <button class="btn btn--ghost" type="button" data-prev>Back</button>
+                <button class="btn" type="button" data-next>Continue</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 4 -->
+          <div class="step-panel" data-step="4">
+            <div class="panel">
+              <h2 class="display-s panel__title">Review your stay details</h2>
+              <p class="panel__hint">Keep your selected room, dates, and price together in one place.</p>
+
+              <div class="notice notice--info">
+                <strong>Online reservations are not yet available.</strong> Viewing these details does not reserve a room or take a payment.
+              </div>
+
+              <ul class="status-list">
+                <li>Your selected room must have space for everyone in your party.</li>
+                <li>Your total is the nightly room rate multiplied by the length of your stay.</li>
+                <li>Rates are shown in euro and include breakfast. No payment is taken on this website.</li>
+              </ul>
+
+              <div class="step-actions">
+                <button class="btn btn--ghost" type="button" data-prev>Back</button>
+                <button class="btn" type="button" data-confirm>View stay details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---------------------------------------------------- side -->
+      <aside class="booking-side" aria-label="Stay summary">
+        <details class="panel panel--dark summary-disclosure" open>
+          <summary><span class="eyebrow">Your stay</span><span class="display-s" data-summary-compact>Choose your room</span><span class="summary-disclosure__hint">Stay details <span aria-hidden="true">+</span></span></summary>
+          <div class="summary-disclosure__body">
+          <div class="stay-card" style="border-color:var(--c-line-dark);padding:0;border:0">
+            <div class="stay-card__row"><span style="color:var(--c-ivory-70)">Room</span><span data-summary-room>—</span></div>
+            <div class="stay-card__row"><span style="color:var(--c-ivory-70)">Arrival</span><span data-summary-in>—</span></div>
+            <div class="stay-card__row"><span style="color:var(--c-ivory-70)">Departure</span><span data-summary-out>—</span></div>
+            <div class="stay-card__row"><span style="color:var(--c-ivory-70)">Nights</span><span data-nights>—</span></div>
+            <div class="stay-card__row"><span style="color:var(--c-ivory-70)">Guests</span><span data-summary-guests>2</span></div>
+            <div class="stay-card__row"><span style="color:var(--c-ivory-70)">Rate</span><span data-rate>—</span></div>
+            <div class="stay-card__row total" style="border-color:var(--c-line-dark)"><span style="color:var(--c-ivory-70)">Total</span><b data-total>—</b></div>
+          </div>
+          <p class="body-s" style="color:var(--c-ivory-70);margin-top:24px">Rates in EUR, including breakfast. No payment is taken.</p>
+          </div>
+        </details>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="split-note">
+      <div class="split-note__label"><span class="eyebrow">Questions</span></div>
+      <div class="split-note__body">
+        <h2 class="display-m" style="margin-bottom:20px">Before you book</h2>
+        <div class="prose" style="margin-bottom:24px">
+          <p>Arrival can be today or later in Portugal's local time. Choose one to fourteen nights and one room for up to three guests. The Sora Suite sleeps three; all other rooms sleep two. Reservations are not yet available online.</p>
+        </div>
+        <a class="link" href="contact.html">Ask a question <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>

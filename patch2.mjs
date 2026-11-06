@@ -1,0 +1,10 @@
+import { readFileSync, writeFileSync } from 'node:fs';
+const m = JSON.parse(readFileSync('design/prototypes/pages/meta.json','utf8'));
+m.index.header = 'transparent';
+m.confirmation.header = 'transparent';
+writeFileSync('design/prototypes/pages/meta.json', JSON.stringify(m,null,2));
+const p='design/prototypes/pages/rooms.body.html';
+let s=readFileSync(p,'utf8');
+s=s.replace('../../assets/rooms/atlantic-room-main.svg" alt="The Atlantic Room at Sora House, with a wide window framing the sea." width="1400" height="1750"','../../assets/architecture/landscape-wide.svg" alt="The wide Atlantic coast above Sora House, low dunes and open sand." width="1920" height="900"');
+writeFileSync(p,s);
+console.log('ok');

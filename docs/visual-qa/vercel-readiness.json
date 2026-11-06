@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "deployed": false,
+  "node": "v24.18.0",
+  "publicPages": 15,
+  "runtimeAssets": 68,
+  "outputBytes": 7415010,
+  "buildVerification": "passed",
+  "httpRoutingVerification": "passed",
+  "browserViewportChecks": 60,
+  "browserChecks": [
+    "All 15 pages at 1440, 768, 390 and 360px: one h1, no document overflow, missing references or console errors",
+    "All four room lightboxes open, load photographs, navigate three views and restore focus; mobile gallery thumbnails share a row and comparison cards expose actions",
+    "Public content remains readable without JavaScript; unconnected enquiry form cannot submit natively",
+    "Suite prefill for three guests, both summaries and confirmation calculate €860 for two nights; two-guest rooms disabled",
+    "Roomless progression, past dates and 15-night stays blocked; native keyboard room selection works; guest changes clear incompatible selection",
+    "Confirmation recomputes canonical prices and rejects invalid stays",
+    "Single-open FAQs, accessible contact errors and truthful unsent-message status",
+    "Gallery filters, filtered lightbox sequence, background isolation and focus restoration",
+    "Comparison capacity filter, mobile menu focus cycle, single-column gallery, compact summary and unwrapped progress",
+    "Room detail form transfers dates, guests and room to booking"
+  ],
+  "metadataChecks": [
+    "Explicit production origin produces absolute canonical/share URLs and twelve sitemap entries; crawlers can read noindex directives",
+    "Preview environment suppresses indexing/sitemap and uses the stable production domain for canonical metadata",
+    "Invalid non-HTTPS or path-based site origins fail the build"
+  ],
+  "socialPreview": "accepted; see social-preview-png-deployment.md",
+  "guide": "README.md"
+}

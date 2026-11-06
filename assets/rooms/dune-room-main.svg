@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1750" width="1400" height="1750" role="img">
+  <defs>
+    <filter id="grain-interior-61" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="7" result="n"/>
+    <feColorMatrix in="n" type="saturate" values="0" result="d"/>
+    <feComponentTransfer in="d" result="t"><feFuncA type="linear" slope="0.16" intercept="0"/></feComponentTransfer>
+    <feBlend in="SourceGraphic" in2="t" mode="multiply"/>
+  </filter>
+    <linearGradient id="wall" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#FBF8F2"/><stop offset="0.55" stop-color="#F5F1E9"/><stop offset="1" stop-color="#DDD0BD"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#7E6045" stop-opacity="0.55"/><stop offset="0.3" stop-color="#A98461" stop-opacity="0.1"/><stop offset="1" stop-color="#A98461" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="0.28" cy="0.18" r="0.95">
+      <stop offset="0" stop-color="#FFF6E4" stop-opacity="0.55"/><stop offset="0.55" stop-color="#FFF6E4" stop-opacity="0.12"/><stop offset="1" stop-color="#3A3A32" stop-opacity="0.22"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.8" r="0.7">
+      <stop offset="0" stop-color="#FBF8F2" stop-opacity="0.95"/><stop offset="1" stop-color="#FBF8F2" stop-opacity="0.35"/>
+    </radialGradient>
+    <filter id="ginterior-61"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="n"/><feColorMatrix in="n" type="saturate" values="0" result="d"/><feComponentTransfer in="d" result="t"><feFuncA type="linear" slope="0.14" intercept="0"/></feComponentTransfer><feBlend in="SourceGraphic" in2="t" mode="multiply"/></filter>
+  </defs>
+  <g filter="url(#ginterior-61)">
+  <rect width="1400" height="1750" fill="#FBF8F2"/>
+  <rect width="1400" height="1190" fill="url(#wall)"/>
+  <rect y="1190" width="1400" height="560" fill="#A98461"/>
+  <rect y="1190" width="1400" height="560" fill="url(#floor)"/><defs><clipPath id="clip61"><path d="M728 1120 L728 455 A280 280 0 0 1 1288 455 L1288 1120 Z"/></clipPath></defs>
+    <g clip-path="url(#clip61)" transform="translate(728 175)">
+  <linearGradient id="i61sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#E8E3D6"/><stop offset="0.72" stop-color="#F5F1E9"/><stop offset="1" stop-color="#FBF8F2"/>
+  </linearGradient>
+  <linearGradient id="i61sea" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#8FA6A4"/><stop offset="0.35" stop-color="#5C7B7C"/><stop offset="1" stop-color="#304444"/>
+  </linearGradient>
+  <rect width="560" height="945" fill="url(#i61sky)"/>
+  <circle cx="403" cy="302" r="52" fill="#FBF8F2" opacity="0.85"/>
+  <rect x="0" y="434.70000000000005" width="560" height="510.29999999999995" fill="url(#i61sea)"/>
+  <rect x="35.1" y="440.7" width="140.3" height="1.5" fill="#FBF8F2" opacity="0.19"/>
+  <rect x="232.1" y="460.3" width="71.7" height="1.9" fill="#FBF8F2" opacity="0.25"/>
+  <rect x="124.0" y="480.0" width="80.2" height="2.4" fill="#FBF8F2" opacity="0.23"/>
+  <rect x="367.9" y="499.6" width="100.9" height="2.0" fill="#FBF8F2" opacity="0.18"/>
+  <rect x="97.6" y="519.2" width="217.0" height="2.1" fill="#FBF8F2" opacity="0.16"/>
+  <rect x="150.6" y="538.8" width="292.4" height="2.9" fill="#FBF8F2" opacity="0.12"/>
+  <rect x="183.0" y="558.5" width="222.0" height="2.7" fill="#FBF8F2" opacity="0.13"/>
+  <rect x="264.7" y="578.1" width="147.4" height="3.1" fill="#FBF8F2" opacity="0.25"/>
+  <rect x="91.7" y="597.7" width="67.0" height="2.6" fill="#FBF8F2" opacity="0.14"/>
+  <rect x="286.8" y="617.3" width="192.5" height="3.1" fill="#FBF8F2" opacity="0.16"/>
+  <rect x="10.1" y="637.0" width="92.4" height="2.2" fill="#FBF8F2" opacity="0.14"/>
+  <rect x="29.4" y="656.6" width="286.0" height="3.0" fill="#FBF8F2" opacity="0.16"/>
+  <rect x="69.9" y="676.2" width="170.2" height="1.7" fill="#FBF8F2" opacity="0.15"/>
+  <rect x="218.2" y="695.9" width="99.7" height="3.1" fill="#FBF8F2" opacity="0.21"/>
+  <rect x="270.5" y="715.5" width="118.4" height="2.8" fill="#FBF8F2" opacity="0.18"/>
+  <rect x="196.3" y="735.1" width="235.8" height="2.1" fill="#FBF8F2" opacity="0.08"/>
+  <rect x="171.2" y="754.7" width="135.2" height="2.3" fill="#FBF8F2" opacity="0.22"/>
+  <rect x="17.8" y="774.4" width="283.8" height="2.9" fill="#FBF8F2" opacity="0.25"/>
+  <rect x="204.7" y="794.0" width="327.6" height="1.7" fill="#FBF8F2" opacity="0.15"/>
+  <rect x="6.7" y="813.6" width="283.6" height="3.0" fill="#FBF8F2" opacity="0.14"/>
+  <rect x="166.7" y="833.2" width="259.5" height="2.6" fill="#FBF8F2" opacity="0.15"/>
+  <rect x="171.4" y="852.9" width="360.7" height="2.7" fill="#FBF8F2" opacity="0.23"/>
+  <rect x="165.1" y="872.5" width="367.7" height="2.7" fill="#FBF8F2" opacity="0.07"/>
+  <rect x="266.3" y="892.1" width="72.0" height="2.6" fill="#FBF8F2" opacity="0.11"/>
+  <rect x="172.0" y="911.7" width="316.1" height="2.8" fill="#FBF8F2" opacity="0.22"/>
+  <rect x="282.3" y="931.4" width="235.4" height="1.5" fill="#FBF8F2" opacity="0.24"/></g>
+    <path d="M728 1120 L728 455 A280 280 0 0 1 1288 455 L1288 1120 Z" fill="none" stroke="#C8B79E" stroke-width="3"/><polygon points="728,1190 1288,1190 1428,1750 672,1750" fill="#FBF8F2" opacity="0.28"/>
+  <rect x="140" y="875" width="476.00000000000006" height="280" rx="4" fill="#EDE7DA"/>
+  <rect x="140" y="1029" width="476.00000000000006" height="126" fill="#D9D1C0"/>
+  <rect x="126" y="770" width="456.96000000000004" height="122.50000000000001" rx="3" fill="#B69979"/>
+  <rect x="178.08" y="822.5" width="142.8" height="61.25000000000001" rx="6" fill="#FBF8F2"/>
+  <rect x="387.52000000000004" y="822.5" width="142.8" height="61.25000000000001" rx="6" fill="#FBF8F2"/>
+  <rect x="112" y="1155" width="532" height="52.5" fill="#7E6045" opacity="0.5"/>
+  <rect x="672" y="1014.9999999999999" width="98.00000000000001" height="35" fill="#7E6045"/>
+  <rect x="716.8" y="1050" width="8.4" height="140" fill="#7E6045"/>
+  <path d="M688.8 822.5 L753.2 822.5 L742 735 L700 735 Z" fill="#DDD0BD"/><ellipse cx="630" cy="1540" rx="504" ry="96.25" fill="#D9D1C0" opacity="0.9"/>
+  <g transform="translate(70 1260) scale(1.54)" fill="#96795C" opacity="0.85">
+    <path d="M0 0 C-4 -26 -18 -38 -30 -44 C-20 -26 -10 -12 0 0 Z"/>
+    <path d="M0 0 C4 -28 20 -42 34 -48 C22 -28 10 -12 0 0 Z"/>
+    <path d="M0 0 C-2 -18 -2 -34 0 -50 C4 -32 6 -16 0 0 Z" opacity="0.8"/>
+  </g><rect x="49.00000000000001" y="1242.5" width="49.00000000000001" height="157.5" fill="#B69979"/><circle cx="644" cy="525" r="16.8" fill="#FBF8F2" opacity="0.9"/>
+  <circle cx="644" cy="525" r="42" fill="#FBF8F2" opacity="0.18"/><rect width="1400" height="1750" fill="url(#warm)"/>
+  </g>
+</svg>

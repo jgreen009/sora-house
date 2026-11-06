@@ -1,0 +1,76 @@
+{
+  "404": {
+    "title": "Page not found — Sora House",
+    "description": "The page you were looking for could not be found.",
+    "current": "",
+    "page": "page-error"
+  },
+  "index": {
+    "title": "Sora House — A slower way to stay",
+    "description": "Sora House is a twelve-room coastal retreat on the Atlantic coast of Portugal, made for people who would rather take their time.",
+    "current": "",
+    "page": "page-home",
+    "header": "transparent"
+  },
+  "rooms": {
+    "title": "Rooms & Suites — Sora House",
+    "description": "Four room types, twelve rooms in total. Explore room sizes, views, and nightly rates at Sora House.",
+    "current": "rooms",
+    "page": "page-rooms"
+  },
+  "experiences": {
+    "title": "Experiences — Sora House",
+    "description": "The Sora Table, Coastal Paths, and Slow Rituals: three ways to spend a day at Sora House.",
+    "current": "experiences",
+    "page": "page-experiences"
+  },
+  "gallery": {
+    "title": "Gallery — Sora House",
+    "description": "The house in its own light: architecture, rooms, coastal life and dining at Sora House.",
+    "current": "gallery",
+    "page": "page-gallery"
+  },
+  "about": {
+    "title": "Our Story — Sora House",
+    "description": "Why Sora House exists, how it is built and what we choose not to do.",
+    "current": "about",
+    "page": "page-about"
+  },
+  "contact": {
+    "title": "Contact — Sora House",
+    "description": "Contact Sora House and find answers about rooms, stays, and the house.",
+    "current": "",
+    "page": "page-contact"
+  },
+  "book": {
+    "title": "Book Your Stay — Sora House",
+    "description": "Choose your dates and room, and review the cost of a stay at Sora House.",
+    "current": "",
+    "page": "page-book"
+  },
+  "confirmation": {
+    "title": "Your Stay Details — Sora House",
+    "description": "Your selected room, dates, and nightly rate at Sora House.",
+    "current": "",
+    "page": "page-confirmation",
+    "header": "transparent"
+  },
+  "privacy": {
+    "title": "Privacy — Sora House",
+    "description": "How information is handled on the Sora House website.",
+    "current": "",
+    "page": "page-legal"
+  },
+  "terms": {
+    "title": "Terms — Sora House",
+    "description": "Information about room rates and online services at Sora House.",
+    "current": "",
+    "page": "page-legal"
+  },
+  "components": {
+    "title": "Component preview — Sora House",
+    "description": "The Sora House component library: buttons, type, colour, forms, cards and booking components.",
+    "current": "",
+    "page": "page-components"
+  }
+}

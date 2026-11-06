@@ -1,0 +1,81 @@
+/* ==========================================================================
+   SORA HOUSE — Design tokens
+   The single source of truth for Phase 1. Values mirror
+   design/brand/brand-identity.md and documentation/design-system.md.
+   ========================================================================== */
+
+:root {
+  /* ---------------------------------------------------------- colour */
+  --c-ivory: #F5F1E9;
+  --c-ivory-light: #FBF8F2;
+  --c-sandstone: #DDD0BD;
+  --c-taupe: #B69979;
+  --c-coastal: #304444;
+  --c-coastal-80: #3B5150;
+  --c-ink: #282824;
+  --c-ink-70: #5C5A52;
+  --c-ink-50: #82806F;
+  --c-ink-30: #B3B0A2;
+  --c-line: #DED5C4;
+  --c-line-soft: #E9E2D5;
+  --c-line-dark: #4A5C5B;
+  --c-ivory-70: #CFCABB;
+  --c-ivory-50: #A9A79A;
+  --c-accent: #8A6A4B;
+  --c-success: #3F6B54;
+  --c-error: #8C3A2B;
+  --c-warning: #8A6A2F;
+  --c-overlay: rgba(24, 30, 30, .98);
+
+  /* -------------------------------------------------------- typography */
+  --font-display: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --font-ui: "DM Sans", "Helvetica Neue", Arial, sans-serif;
+
+  --fs-display-xl: clamp(3.25rem, 1.6rem + 6.6vw, 6.5rem);   /* 52 → 104 */
+  --fs-display-l: clamp(2.5rem, 1.5rem + 4vw, 4.75rem);      /* 40 → 76  */
+  --fs-display-m: clamp(2rem, 1.35rem + 2.6vw, 3.25rem);     /* 32 → 52  */
+  --fs-display-s: clamp(1.625rem, 1.3rem + 1.3vw, 2.125rem); /* 26 → 34  */
+  --fs-lede: clamp(1.25rem, 1.05rem + .8vw, 1.625rem);       /* 20 → 26  */
+  --fs-lede-sm: clamp(1rem, .95rem + .3vw, 1.125rem);        /* 16 → 18  */
+  --fs-body: 1.0625rem;                                     /* 17      */
+  --fs-body-s: .9375rem;                                    /* 15      */
+  --fs-label: .75rem;                                       /* 12      */
+  --fs-nav: .875rem;                                        /* 14      */
+  --fs-button: .8125rem;                                    /* 13      */
+
+  --lh-body: 1.7;
+  --lh-heading: 1.15;
+
+  /* ----------------------------------------------------------- layout */
+  --container: 1360px;
+  --container-wide: 1600px;
+  --gutter: 64px;
+  --edge: max(var(--gutter), calc((100% - var(--container)) / 2 + var(--gutter)));
+  --grid-gap: 24px;
+  --space-section: 128px;
+  --space-section-sm: 88px;
+
+  /* ----------------------------------------------------------- motion */
+  --ease-out: cubic-bezier(.22, .61, .36, 1);
+  --ease-inout: cubic-bezier(.65, 0, .35, 1);
+  --dur-fast: .25s;
+  --dur-base: .45s;
+  --dur-slow: .9s;
+
+  /* -------------------------------------------------------- elevation */
+  --shadow-soft: 0 18px 50px rgba(40, 40, 36, .09);
+  --shadow-panel: 0 2px 0 rgba(40, 40, 36, .04);
+}
+
+@media (max-width: 1279px) {
+  :root { --gutter: 40px; --space-section: 104px; --space-section-sm: 76px; }
+}
+@media (max-width: 900px) {
+  :root { --gutter: 24px; --grid-gap: 16px; --space-section: 80px; --space-section-sm: 60px; }
+}
+@media (max-width: 480px) {
+  :root { --gutter: 20px; --space-section: 72px; --space-section-sm: 56px; }
+}
+@media (max-width: 359px) {
+  :root { --gutter: 16px; }
+}

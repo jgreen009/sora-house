@@ -1,0 +1,530 @@
+{
+  "date": "2026-10-30",
+  "protocol": "HTTP",
+  "pages": [
+    {
+      "file": "404.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "about.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "book.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "components.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "confirmation.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "contact.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "experiences.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "gallery.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "privacy.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-atlantic.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-courtyard.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-dune.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-suite.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "rooms.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "terms.html",
+      "width": 1440,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "404.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "about.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "book.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "components.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "confirmation.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "contact.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "experiences.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "gallery.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "privacy.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-atlantic.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-courtyard.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-dune.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-suite.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "rooms.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "terms.html",
+      "width": 768,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "404.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "about.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "book.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "components.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "confirmation.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "contact.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "experiences.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "gallery.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "privacy.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-atlantic.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-courtyard.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-dune.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-suite.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "rooms.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "terms.html",
+      "width": 390,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "404.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "about.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "book.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "components.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "confirmation.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "contact.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "experiences.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "gallery.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "privacy.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-atlantic.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-courtyard.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-dune.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-suite.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "rooms.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "terms.html",
+      "width": 360,
+      "headings": 1,
+      "overflow": 0,
+      "missingFiles": [],
+      "errors": []
+    }
+  ],
+  "checks": [
+    "All 16 pages at 1440, 768, 390 and 360px: one h1, no document overflow, missing references or console errors",
+    "All four room lightboxes open, load photographs, navigate three views and restore focus; mobile gallery thumbnails share a row and comparison cards expose actions",
+    "Public content remains readable without JavaScript; unconnected enquiry form cannot submit natively",
+    "Suite prefill for three guests, both summaries and confirmation calculate €860 for two nights; two-guest rooms disabled",
+    "Roomless progression, past dates and 15-night stays blocked; native keyboard room selection works; guest changes clear incompatible selection",
+    "Confirmation recomputes canonical prices and rejects invalid stays",
+    "Single-open FAQs, accessible contact errors and truthful unsent-message status",
+    "Gallery filters, filtered lightbox sequence, background isolation and focus restoration",
+    "Comparison capacity filter, mobile menu focus cycle, single-column gallery, compact summary and unwrapped progress",
+    "Room detail form transfers dates, guests and room to booking"
+  ]
+}

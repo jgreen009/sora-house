@@ -1,0 +1,352 @@
+{
+  "date": "2026-10-30",
+  "mode": "local file browser audit; no screenshots opened",
+  "pages": [
+    {
+      "file": "404.html",
+      "width": 1440,
+      "title": "Page not found — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "about.html",
+      "width": 1440,
+      "title": "Our Story — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "book.html",
+      "width": 1440,
+      "title": "Book Your Stay — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "components.html",
+      "width": 1440,
+      "title": "Component preview — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "confirmation.html",
+      "width": 1440,
+      "title": "Demonstration Reservation — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "contact.html",
+      "width": 1440,
+      "title": "Contact — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "experiences.html",
+      "width": 1440,
+      "title": "Experiences — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "gallery.html",
+      "width": 1440,
+      "title": "Gallery — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [
+        ""
+      ],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "title": "Sora House — A slower way to stay",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "privacy.html",
+      "width": 1440,
+      "title": "Privacy — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-atlantic.html",
+      "width": 1440,
+      "title": "Atlantic Room — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-courtyard.html",
+      "width": 1440,
+      "title": "Courtyard Room — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-dune.html",
+      "width": 1440,
+      "title": "Dune Room — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-suite.html",
+      "width": 1440,
+      "title": "Sora Suite — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "rooms.html",
+      "width": 1440,
+      "title": "Rooms & Suites — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "terms.html",
+      "width": 1440,
+      "title": "Terms — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "404.html",
+      "width": 390,
+      "title": "Page not found — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "about.html",
+      "width": 390,
+      "title": "Our Story — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "book.html",
+      "width": 390,
+      "title": "Book Your Stay — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "components.html",
+      "width": 390,
+      "title": "Component preview — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "confirmation.html",
+      "width": 390,
+      "title": "Demonstration Reservation — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "contact.html",
+      "width": 390,
+      "title": "Contact — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "experiences.html",
+      "width": 390,
+      "title": "Experiences — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "gallery.html",
+      "width": 390,
+      "title": "Gallery — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [
+        ""
+      ],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "title": "Sora House — A slower way to stay",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "privacy.html",
+      "width": 390,
+      "title": "Privacy — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-atlantic.html",
+      "width": 390,
+      "title": "Atlantic Room — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-courtyard.html",
+      "width": 390,
+      "title": "Courtyard Room — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-dune.html",
+      "width": 390,
+      "title": "Dune Room — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "room-suite.html",
+      "width": 390,
+      "title": "Sora Suite — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "rooms.html",
+      "width": 390,
+      "title": "Rooms & Suites — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    },
+    {
+      "file": "terms.html",
+      "width": 390,
+      "title": "Terms — Sora House",
+      "headings": 1,
+      "overflow": 0,
+      "brokenImages": [],
+      "missingFiles": [],
+      "errors": []
+    }
+  ],
+  "interactions": {
+    "bookingPrefill": {
+      "arrival": "2026-11-06",
+      "departure": "2026-11-09",
+      "guests": "2",
+      "summaryRoot": false
+    },
+    "continueWithoutRoom": "3",
+    "unavailableSuiteSelected": "room-option is-selected",
+    "roomPressed": "false",
+    "reviewSummary": [
+      "—",
+      "—"
+    ],
+    "reviewTotal": [
+      "—",
+      "—"
+    ],
+    "confirmationUrl": "file:///C:/Users/OWNER/All%20Development%20Works/Sample%20Works/sora-house/design/prototypes/confirmation.html?code=SORA-04QWYS&room=Sora%20Suite&in=2026-12-10&out=2026-12-12&nights=2&guests=2&rate=430&total=860",
+    "pastDatesStep": "2",
+    "openAccordions": 2
+  }
+}

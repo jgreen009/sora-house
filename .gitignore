@@ -1,0 +1,14 @@
+dist/
+.vercel/
+node_modules/
+tools/node_modules/
+tools/.frames/
+tools/.build/
+.npm-cache/
+design/prototypes/screenshots/
+.env
+.env.*
+!.env.example
+*.log
+
+.vercel

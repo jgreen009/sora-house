@@ -1,0 +1,582 @@
+{
+  "provider": "Higgsfield MCP",
+  "model": "flux_3_image",
+  "heroPrompt": "Architectural editorial photograph for Sora House, a twelve-room boutique hotel on Portugal's Atlantic coast. One coherent single-storey pale limestone building gently curved around a courtyard, deep rounded arches, warm natural oak doors, limewashed plaster, weathered stone terrace, low marram-grass dunes and calm Atlantic horizon. Ground-level 35mm architectural camera, straight verticals, building spans middle right two thirds, no aerial or drone perspective. Late afternoon western light rakes textured plaster, soft long shadows, quiet warm ivory and sandstone with muted coastal green. Natural photographic detail, restrained magazine-quality colour grading, realistic stone and wood grain, no CGI sheen, no illustration. Wide landscape website hero: leave lower-left area darker and visually simple for ivory headline. No people, lettering, watermarks, logos, pools, palm trees, extra storeys, resort furniture, sunset orange cast.",
+  "briefs": [
+    [
+      "room-dune",
+      "4:3",
+      "Interior of a compact 26 m² garden-facing bedroom. Low king bed with ivory linen, oak bench, deep arched window opening to marram-grass dune garden, warm oak door, reading lamp and simple desk. Camera from doorway, 35mm lens, whole room with credible modest scale, soft morning daylight."
+    ],
+    [
+      "room-courtyard",
+      "4:3",
+      "Interior of a 32 m² bedroom around a sheltered planted stone courtyard. Wide arched opening to an olive tree and pale courtyard walls, king bed with linen, oak floor, simple reading chair and floor lamp. Side daylight, intimate enclosure, no sea view. 35mm camera at human eye level."
+    ],
+    [
+      "room-atlantic",
+      "4:3",
+      "Interior of a 38 m² west-facing bedroom. Broad window frames the Atlantic horizon and private stone terrace with two plain oak chairs. Low king bed at left with linen, warm oak floor, limestone wall, evening sunlight raking floor. Camera sees both bed and clear sea view; believable wide room."
+    ],
+    [
+      "room-suite",
+      "4:3",
+      "Interior of the 54 m² Sora Suite, a single-storey suite with bedroom visible through a wide plaster opening and a separate lounge in foreground. Oak-framed sofa in linen, low stone hearth with unlit fireplace, quiet reading lamp, terrace and uninterrupted Atlantic horizon beyond deep arch. Show credible separate living and sleeping spaces."
+    ],
+    [
+      "detail-dune",
+      "4:3",
+      "Intimate secondary view inside the garden-facing Dune Room: low linen bed, oak bench and deep window sill with a closed book; dune grasses visible outside. Camera at mattress height, side morning light, emphasis on simple construction and tactile bedding. No ocean view."
+    ],
+    [
+      "detail-courtyard",
+      "4:3",
+      "Secondary view of a Courtyard Room through a wide plaster arch to a sheltered stone courtyard with a single olive tree. A linen reading chair and oak side table in foreground, bed edge at left. Soft midday shade, believable indoor-outdoor threshold, no sea view."
+    ],
+    [
+      "detail-atlantic",
+      "4:3",
+      "Secondary view from the Atlantic Room terrace looking through an open oak door toward the linen bed, with sea horizon visible at right. Two simple oak chairs on pale stone, raking afternoon shadows, human eye-level 50mm lens. Architectural detail, not an aerial."
+    ],
+    [
+      "detail-suite",
+      "4:3",
+      "Secondary view of the Sora Suite separate lounge: long linen sofa, low oak table, books and a stone fireplace, deep arched opening to the Atlantic terrace. Bedroom is not the focal point. Warm late afternoon light, natural imperfections, restrained furniture."
+    ],
+    [
+      "dining-table",
+      "4:3",
+      "The Sora Table dining room: one long solid oak table, simple oak chairs, a few ivory ceramic plates, linen napkins and clear glasses, discreet pendant lights switched off, deep plaster arches framing courtyard daylight. No food feast, no people, no ornate styling. Wide composed photograph."
+    ],
+    [
+      "quiet-bath",
+      "4:3",
+      "A quiet bathing room with a freestanding pale stone bath, folded ivory linen, a small oak stool and soft light entering one deep arched courtyard window. Limestone floor, lime plaster, calm tactile surfaces, realistic plumbing, no steam haze or candles."
+    ],
+    [
+      "coastal-path",
+      "21:9",
+      "Atlantic Portugal coastal landscape seen at walking height: narrow sandy footpath through low marram-grass dunes toward a broad calm sea and one clear horizon. Same natural stone/ivory/coastal palette as house reference, soft late afternoon. No buildings, cliffs, mountains, crowds, tropical plants, umbrellas, sunrise red or drone view."
+    ],
+    [
+      "lime-plaster",
+      "4:5",
+      "Close architectural material photograph: warm ivory lime plaster with a deep rounded window reveal and subtle oak edge, raking afternoon daylight creates a sharply legible soft-edged shadow. Tactile plaster detail with real surface variation, clearly composed shape rather than blank beige texture. No text or objects."
+    ],
+    [
+      "arrival-path",
+      "4:3",
+      "A ground-level approach photograph of the reference house. Narrow pale gravel path between low dune grass leading to one deep stone arch and an open oak door. Maintain the exact building identity, single-storey limestone and lime plaster, quiet afternoon daylight, natural textures."
+    ],
+    [
+      "facade-detail",
+      "4:5",
+      "Portrait architectural detail photograph of two adjacent deep rounded arches at the reference house, pale limestone and ivory lime plaster, oak-framed glass door in one arch, a sliver of dune and Atlantic at the side, low afternoon light making long shadows, tactile stone joints and realistic construction."
+    ],
+    [
+      "oak-detail",
+      "1:1",
+      "Close architectural photograph inside the reference house: warm natural oak joinery meets a lime-plaster wall and pale stone ledge, clear wood grain and a softly worn edge, raking daylight with a readable shadow, intimate tactile framing, no text, no people."
+    ],
+    [
+      "linen-detail",
+      "4:3",
+      "Close editorial photograph of ivory washed linen folded over the edge of a low oak bed, subtle creases, natural weave, a narrow band of pale stone floor and plaster wall, soft side daylight, realistic textile texture, restrained styling, no people."
+    ]
+  ],
+  "requests": [
+    {
+      "index": 1,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on Portugal's Atlantic coast. Match the reference building's architectural identity and palette: one storey, pale limestone, limewashed plaster, deep rounded arches, natural oak, washed ivory linen, muted coastal greens. Believable construction and restrained furnishings; tactile texture and natural daylight, straight verticals, magazine-quality neutral colour grade. No people, text, signage, watermarks, illustration, CGI sheen, extra storeys, palm trees, swimming pools, orange filter or extravagant resort styling. Interior of a compact 26 m² garden-facing bedroom. Low king bed with ivory linen, oak bench, deep arched window opening to marram-grass dune garden, warm oak door, reading lamp and simple desk. Camera from doorway, 35mm lens, whole room with credible modest scale, soft morning daylight.",
+        "aspect_ratio": "4:3",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on Portugal's Atlantic coast. Match the reference building's architectural identity and palette: one storey, pale limestone, limewashed plaster, deep rounded arches, natural oak, washed ivory linen, muted coastal greens. Believable construction and restrained furnishings; tactile texture and natural daylight, straight verticals, magazine-quality neutral colour grade. No people, text, signage, watermarks, illustration, CGI sheen, extra storeys, palm trees, swimming pools, orange filter or extravagant resort styling. Interior of a 32 m² bedroom around a sheltered planted stone courtyard. Wide arched opening to an olive tree and pale courtyard walls, king bed with linen, oak floor, simple reading chair and floor lamp. Side daylight, intimate enclosure, no sea view. 35mm camera at human eye level.",
+        "aspect_ratio": "4:3",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on Portugal's Atlantic coast. Match the reference building's architectural identity and palette: one storey, pale limestone, limewashed plaster, deep rounded arches, natural oak, washed ivory linen, muted coastal greens. Believable construction and restrained furnishings; tactile texture and natural daylight, straight verticals, magazine-quality neutral colour grade. No people, text, signage, watermarks, illustration, CGI sheen, extra storeys, palm trees, swimming pools, orange filter or extravagant resort styling. Interior of a 38 m² west-facing bedroom. Broad window frames the Atlantic horizon and private stone terrace with two plain oak chairs. Low king bed at left with linen, warm oak floor, limestone wall, evening sunlight raking floor. Camera sees both bed and clear sea view; believable wide room.",
+        "aspect_ratio": "4:3",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on Portugal's Atlantic coast. Match the reference building's architectural identity and palette: one storey, pale limestone, limewashed plaster, deep rounded arches, natural oak, washed ivory linen, muted coastal greens. Believable construction and restrained furnishings; tactile texture and natural daylight, straight verticals, magazine-quality neutral colour grade. No people, text, signage, watermarks, illustration, CGI sheen, extra storeys, palm trees, swimming pools, orange filter or extravagant resort styling. Interior of the 54 m² Sora Suite, a single-storey suite with bedroom visible through a wide plaster opening and a separate lounge in foreground. Oak-framed sofa in linen, low stone hearth with unlit fireplace, quiet reading lamp, terrace and uninterrupted Atlantic horizon beyond deep arch. Show credible separate living and sleeping spaces.",
+        "aspect_ratio": "4:3",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on Portugal's Atlantic coast. Match the reference building's architectural identity and palette: one storey, pale limestone, limewashed plaster, deep rounded arches, natural oak, washed ivory linen, muted coastal greens. Believable construction and restrained furnishings; tactile texture and natural daylight, straight verticals, magazine-quality neutral colour grade. No people, text, signage, watermarks, illustration, CGI sheen, extra storeys, palm trees, swimming pools, orange filter or extravagant resort styling. Intimate secondary view inside the garden-facing Dune Room: low linen bed, oak bench and deep window sill with a closed book; dune grasses visible outside. Camera at mattress height, side morning light, emphasis on simple construction and tactile bedding. No ocean view.",
+        "aspect_ratio": "4:3",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on Portugal's Atlantic coast. Match the reference building's architectural identity and palette: one storey, pale limestone, limewashed plaster, deep rounded arches, natural oak, washed ivory linen, muted coastal greens. Believable construction and restrained furnishings; tactile texture and natural daylight, straight verticals, magazine-quality neutral colour grade. No people, text, signage, watermarks, illustration, CGI sheen, extra storeys, palm trees, swimming pools, orange filter or extravagant resort styling. Secondary view of a Courtyard Room through a wide plaster arch to a sheltered stone courtyard with a single olive tree. A linen reading chair and oak side table in foreground, bed edge at left. Soft midday shade, believable indoor-outdoor threshold, no sea view.",
+        "aspect_ratio": "4:3",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on Portugal's Atlantic coast. Match the reference building's architectural identity and palette: one storey, pale limestone, limewashed plaster, deep rounded arches, natural oak, washed ivory linen, muted coastal greens. Believable construction and restrained furnishings; tactile texture and natural daylight, straight verticals, magazine-quality neutral colour grade. No people, text, signage, watermarks, illustration, CGI sheen, extra storeys, palm trees, swimming pools, orange filter or extravagant resort styling. Secondary view from the Atlantic Room terrace looking through an open oak door toward the linen bed, with sea horizon visible at right. Two simple oak chairs on pale stone, raking afternoon shadows, human eye-level 50mm lens. Architectural detail, not an aerial.",
+        "aspect_ratio": "4:3",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on Portugal's Atlantic coast. Match the reference building's architectural identity and palette: one storey, pale limestone, limewashed plaster, deep rounded arches, natural oak, washed ivory linen, muted coastal greens. Believable construction and restrained furnishings; tactile texture and natural daylight, straight verticals, magazine-quality neutral colour grade. No people, text, signage, watermarks, illustration, CGI sheen, extra storeys, palm trees, swimming pools, orange filter or extravagant resort styling. Secondary view of the Sora Suite separate lounge: long linen sofa, low oak table, books and a stone fireplace, deep arched opening to the Atlantic terrace. Bedroom is not the focal point. Warm late afternoon light, natural imperfections, restrained furniture.",
+        "aspect_ratio": "4:3",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 9,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on Portugal's Atlantic coast. Match the reference building's architectural identity and palette: one storey, pale limestone, limewashed plaster, deep rounded arches, natural oak, washed ivory linen, muted coastal greens. Believable construction and restrained furnishings; tactile texture and natural daylight, straight verticals, magazine-quality neutral colour grade. No people, text, signage, watermarks, illustration, CGI sheen, extra storeys, palm trees, swimming pools, orange filter or extravagant resort styling. The Sora Table dining room: one long solid oak table, simple oak chairs, a few ivory ceramic plates, linen napkins and clear glasses, discreet pendant lights switched off, deep plaster arches framing courtyard daylight. No food feast, no people, no ornate styling. Wide composed photograph.",
+        "aspect_ratio": "4:3",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 10,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on Portugal's Atlantic coast. Match the reference building's architectural identity and palette: one storey, pale limestone, limewashed plaster, deep rounded arches, natural oak, washed ivory linen, muted coastal greens. Believable construction and restrained furnishings; tactile texture and natural daylight, straight verticals, magazine-quality neutral colour grade. No people, text, signage, watermarks, illustration, CGI sheen, extra storeys, palm trees, swimming pools, orange filter or extravagant resort styling. A quiet bathing room with a freestanding pale stone bath, folded ivory linen, a small oak stool and soft light entering one deep arched courtyard window. Limestone floor, lime plaster, calm tactile surfaces, realistic plumbing, no steam haze or candles.",
+        "aspect_ratio": "4:3",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 11,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on Portugal's Atlantic coast. Match the reference building's architectural identity and palette: one storey, pale limestone, limewashed plaster, deep rounded arches, natural oak, washed ivory linen, muted coastal greens. Believable construction and restrained furnishings; tactile texture and natural daylight, straight verticals, magazine-quality neutral colour grade. No people, text, signage, watermarks, illustration, CGI sheen, extra storeys, palm trees, swimming pools, orange filter or extravagant resort styling. Atlantic Portugal coastal landscape seen at walking height: narrow sandy footpath through low marram-grass dunes toward a broad calm sea and one clear horizon. Same natural stone/ivory/coastal palette as house reference, soft late afternoon. No buildings, cliffs, mountains, crowds, tropical plants, umbrellas, sunrise red or drone view.",
+        "aspect_ratio": "21:9",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on Portugal's Atlantic coast. Match the reference building's architectural identity and palette: one storey, pale limestone, limewashed plaster, deep rounded arches, natural oak, washed ivory linen, muted coastal greens. Believable construction and restrained furnishings; tactile texture and natural daylight, straight verticals, magazine-quality neutral colour grade. No people, text, signage, watermarks, illustration, CGI sheen, extra storeys, palm trees, swimming pools, orange filter or extravagant resort styling. Close architectural material photograph: warm ivory lime plaster with a deep rounded window reveal and subtle oak edge, raking afternoon daylight creates a sharply legible soft-edged shadow. Tactile plaster detail with real surface variation, clearly composed shape rather than blank beige texture. No text or objects.",
+        "aspect_ratio": "4:5",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on the Portuguese Atlantic coast. Use the reference for the same limestone arches, warm oak and ivory plaster, neutral warm palette and natural daylight. Straight verticals, no text, logos, people, CGI or illustration. A ground-level approach photograph of the reference house. Narrow pale gravel path between low dune grass leading to one deep stone arch and an open oak door. Maintain the exact building identity, single-storey limestone and lime plaster, quiet afternoon daylight, natural textures.",
+        "aspect_ratio": "4:3",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 14,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on the Portuguese Atlantic coast. Use the reference for the same limestone arches, warm oak and ivory plaster, neutral warm palette and natural daylight. Straight verticals, no text, logos, people, CGI or illustration. Portrait architectural detail photograph of two adjacent deep rounded arches at the reference house, pale limestone and ivory lime plaster, oak-framed glass door in one arch, a sliver of dune and Atlantic at the side, low afternoon light making long shadows, tactile stone joints and realistic construction.",
+        "aspect_ratio": "4:5",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 15,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on the Portuguese Atlantic coast. Use the reference for the same limestone arches, warm oak and ivory plaster, neutral warm palette and natural daylight. Straight verticals, no text, logos, people, CGI or illustration. Close architectural photograph inside the reference house: warm natural oak joinery meets a lime-plaster wall and pale stone ledge, clear wood grain and a softly worn edge, raking daylight with a readable shadow, intimate tactile framing, no text, no people.",
+        "aspect_ratio": "1:1",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 16,
+      "params": {
+        "model": "flux_3_image",
+        "prompt": "Photorealistic architectural editorial photography for Sora House on the Portuguese Atlantic coast. Use the reference for the same limestone arches, warm oak and ivory plaster, neutral warm palette and natural daylight. Straight verticals, no text, logos, people, CGI or illustration. Close editorial photograph of ivory washed linen folded over the edge of a low oak bed, subtle creases, natural weave, a narrow band of pale stone floor and plaster wall, soft side daylight, realistic textile texture, restrained styling, no people.",
+        "aspect_ratio": "4:3",
+        "resolution": "2k",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "03c3bfb1-edce-4a4a-912d-935a34e8ff01"
+          }
+        ]
+      }
+    },
+    {
+      "index": 17,
+      "params": {
+        "model": "flux_3_image",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "5f4ad937-f6fe-450e-b42b-bb9294eecd89"
+          }
+        ],
+        "prompt": "Create a close architectural editorial detail photograph of this exact Dune Room shown in the reference, preserving ALL materials and construction exactly. Crop closer to the same bed edge, linen and wooden bedside furniture with a portion of the SAME arched opening visible. Preserve the original oak floor, exact arched opening geometry, plaster colour and existing furniture. Do not redesign the room, do not change oak floor to tile, do not replace arch with rectangular window, do not add furniture or another room. Same natural daylight and photographic grading. Human-eye-level 50mm detail composition, tactile linen and wood, no people, text, watermarks, illustration or CGI."
+      }
+    },
+    {
+      "index": 18,
+      "params": {
+        "model": "flux_3_image",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "35ed9bfd-d315-438f-a3ef-7ac0ba0b5088"
+          }
+        ],
+        "prompt": "Create a close architectural editorial detail photograph of this exact Courtyard Room shown in the reference, preserving ALL materials and construction exactly. Crop closer to the same bed edge, linen and wooden bedside furniture with a portion of the SAME arched opening visible. Preserve the original oak floor, exact arched opening geometry, plaster colour and existing furniture. Do not redesign the room, do not change oak floor to tile, do not replace arch with rectangular window, do not add furniture or another room. Same natural daylight and photographic grading. Human-eye-level 50mm detail composition, tactile linen and wood, no people, text, watermarks, illustration or CGI."
+      }
+    },
+    {
+      "index": 19,
+      "params": {
+        "model": "flux_3_image",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "72ce077b-f504-4a5d-8b15-27d110498c45"
+          }
+        ],
+        "prompt": "Create a close architectural editorial detail photograph of this exact Atlantic Room shown in the reference, preserving ALL materials and construction exactly. Crop closer to the same bed edge, linen and wooden bedside furniture with a portion of the SAME arched opening visible. Preserve the original oak floor, exact arched opening geometry, plaster colour and existing furniture. Do not redesign the room, do not change oak floor to tile, do not replace arch with rectangular window, do not add furniture or another room. Same natural daylight and photographic grading. Human-eye-level 50mm detail composition, tactile linen and wood, no people, text, watermarks, illustration or CGI."
+      }
+    },
+    {
+      "index": 20,
+      "params": {
+        "model": "flux_3_image",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "medias": [
+          {
+            "role": "image_references",
+            "value": "2652fa55-f9a3-427d-96c5-dcbf8fc52de9"
+          }
+        ],
+        "prompt": "Photographic editorial detail view inside the EXACT Sora Suite shown in the reference. Preserve the existing oak floor, stone fireplace, exact linen sofa, furniture proportions, lime plaster and arched openings without redesigning anything. Crop closer to the existing lounge seating and low table, with a small portion of the same bedroom opening visible. Maintain the identical lighting, architectural geometry and neutral photographic grading. No added rooms or chairs, no altered flooring, no new window designs, no text, people, watermarks, illustration or CGI."
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "index": 0,
+      "key": "house-exterior",
+      "job_id": "03c3bfb1-edce-4a4a-912d-935a34e8ff01",
+      "status": "completed",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151046_03c3bfb1-edce-4a4a-912d-935a34e8ff01.png"
+    },
+    {
+      "index": 1,
+      "job_id": "5f4ad937-f6fe-450e-b42b-bb9294eecd89",
+      "status": "completed",
+      "key": "room-dune",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151416_5f4ad937-f6fe-450e-b42b-bb9294eecd89.png"
+    },
+    {
+      "index": 2,
+      "job_id": "35ed9bfd-d315-438f-a3ef-7ac0ba0b5088",
+      "status": "completed",
+      "key": "room-courtyard",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151417_35ed9bfd-d315-438f-a3ef-7ac0ba0b5088.png"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "error": "flux_3_image backend request failed (503): Generation creation is busy. Please try again.",
+      "key": "room-atlantic",
+      "job_id": "72ce077b-f504-4a5d-8b15-27d110498c45",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151801_72ce077b-f504-4a5d-8b15-27d110498c45.png"
+    },
+    {
+      "index": 4,
+      "job_id": "2652fa55-f9a3-427d-96c5-dcbf8fc52de9",
+      "status": "completed",
+      "key": "room-suite",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151422_2652fa55-f9a3-427d-96c5-dcbf8fc52de9.png"
+    },
+    {
+      "index": 5,
+      "status": "completed",
+      "error": "flux_3_image backend request failed (503): Generation creation is busy. Please try again.",
+      "key": "detail-dune",
+      "job_id": "74c9433f-2b9c-417b-a859-776cb68d307c",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151801_74c9433f-2b9c-417b-a859-776cb68d307c.png"
+    },
+    {
+      "index": 6,
+      "status": "completed",
+      "error": "flux_3_image backend request failed (429): rate_limit_reached",
+      "key": "detail-courtyard",
+      "job_id": "e56e78fb-d53e-4c79-a0c0-2681833706eb",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151802_e56e78fb-d53e-4c79-a0c0-2681833706eb.png"
+    },
+    {
+      "index": 7,
+      "status": "completed",
+      "error": "flux_3_image backend request failed (429): rate_limit_reached",
+      "key": "detail-atlantic",
+      "job_id": "2a15ebfd-37ea-4cde-9c19-3c227cd43247",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151808_2a15ebfd-37ea-4cde-9c19-3c227cd43247.png"
+    },
+    {
+      "index": 8,
+      "job_id": "dff70d19-2621-4d26-bb7d-316a3aa4267f",
+      "status": "completed",
+      "key": "detail-suite",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151427_dff70d19-2621-4d26-bb7d-316a3aa4267f.png"
+    },
+    {
+      "index": 9,
+      "job_id": "b1afc1f0-c978-47b4-a721-6ea4cb5e8799",
+      "status": "completed",
+      "key": "dining-table",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151416_b1afc1f0-c978-47b4-a721-6ea4cb5e8799.png"
+    },
+    {
+      "index": 10,
+      "job_id": "141a97f5-0e28-419e-8899-cfbb1c0502b2",
+      "status": "completed",
+      "key": "quiet-bath",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151415_141a97f5-0e28-419e-8899-cfbb1c0502b2.png"
+    },
+    {
+      "index": 11,
+      "job_id": "7334319b-7f38-499d-9bd5-3f9836f90c2d",
+      "status": "completed",
+      "key": "coastal-path",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151416_7334319b-7f38-499d-9bd5-3f9836f90c2d.png"
+    },
+    {
+      "index": 12,
+      "job_id": "ac84723c-7d86-469a-87ed-8bbd3cf2ed24",
+      "status": "completed",
+      "key": "lime-plaster",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151417_ac84723c-7d86-469a-87ed-8bbd3cf2ed24.png"
+    },
+    {
+      "key": "arrival-path",
+      "index": 13,
+      "job_id": "b1dbd255-700f-4511-9098-100e03d3c4e0",
+      "status": "completed",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151803_b1dbd255-700f-4511-9098-100e03d3c4e0.png"
+    },
+    {
+      "key": "facade-detail",
+      "index": 14,
+      "job_id": "27097652-7ed0-458b-86be-af16352ccb0f",
+      "status": "completed",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151806_27097652-7ed0-458b-86be-af16352ccb0f.png"
+    },
+    {
+      "key": "oak-detail",
+      "index": 15,
+      "job_id": "558fc5ef-b0b2-4d92-874c-a942fc06d0c0",
+      "status": "completed",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151802_558fc5ef-b0b2-4d92-874c-a942fc06d0c0.png"
+    },
+    {
+      "key": "linen-detail",
+      "index": 16,
+      "job_id": "3682149d-cbe2-483f-aade-65ca59c0ba1c",
+      "status": "completed",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151803_3682149d-cbe2-483f-aade-65ca59c0ba1c.png"
+    },
+    {
+      "index": 17,
+      "job_id": "6a5fcb28-4fb8-47a4-9726-a4e4c03662ce",
+      "status": "completed",
+      "key": "detail-dune-v2",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_152709_6a5fcb28-4fb8-47a4-9726-a4e4c03662ce.png"
+    },
+    {
+      "index": 18,
+      "job_id": "4e4b538b-5faa-4895-92e1-aedbde458997",
+      "status": "completed",
+      "key": "detail-courtyard-v2",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_152700_4e4b538b-5faa-4895-92e1-aedbde458997.png"
+    },
+    {
+      "index": 19,
+      "job_id": "1876cebc-164b-4bdd-aab7-fb8a6949ef4e",
+      "status": "completed",
+      "key": "detail-atlantic-v2",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_152659_1876cebc-164b-4bdd-aab7-fb8a6949ef4e.png"
+    },
+    {
+      "index": 20,
+      "job_id": "dd652340-b782-415c-bfaa-a94f265397ae",
+      "status": "completed",
+      "key": "detail-suite-v2",
+      "type": "image",
+      "model": "flux_3_image",
+      "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_152810_dd652340-b782-415c-bfaa-a94f265397ae.png"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "scope": "Local HTTP asset-delivery measurements with all page images eagerly loaded; not field Web Vitals or production network performance.",
+  "results": [
+    {
+      "route": "index",
+      "width": 1440,
+      "loadEventEndMs": 1405,
+      "resourceTransferBytes": 1926891,
+      "photoTransferBytes": 1668746,
+      "photoRequests": 12,
+      "remoteRequests": [],
+      "brokenImages": 0,
+      "heroSource": "house-exterior-1920.webp",
+      "roomChoiceSources": []
+    },
+    {
+      "route": "book",
+      "width": 1440,
+      "loadEventEndMs": 437,
+      "resourceTransferBytes": 385231,
+      "photoTransferBytes": 149514,
+      "photoRequests": 4,
+      "remoteRequests": [],
+      "brokenImages": 0,
+      "heroSource": null,
+      "roomChoiceSources": [
+        "detail-dune-v2-640.webp",
+        "detail-courtyard-v2-640.webp",
+        "detail-atlantic-v2-640.webp",
+        "detail-suite-v2-640.webp"
+      ]
+    },
+    {
+      "route": "room-suite",
+      "width": 1440,
+      "loadEventEndMs": 516,
+      "resourceTransferBytes": 716721,
+      "photoTransferBytes": 481004,
+      "photoRequests": 5,
+      "remoteRequests": [],
+      "brokenImages": 0,
+      "heroSource": null,
+      "roomChoiceSources": []
+    },
+    {
+      "route": "index",
+      "width": 390,
+      "loadEventEndMs": 1095,
+      "resourceTransferBytes": 2144259,
+      "photoTransferBytes": 1886114,
+      "photoRequests": 11,
+      "remoteRequests": [],
+      "brokenImages": 0,
+      "heroSource": "house-exterior-2736.webp",
+      "roomChoiceSources": []
+    },
+    {
+      "route": "book",
+      "width": 390,
+      "loadEventEndMs": 404,
+      "resourceTransferBytes": 385231,
+      "photoTransferBytes": 149514,
+      "photoRequests": 4,
+      "remoteRequests": [],
+      "brokenImages": 0,
+      "heroSource": null,
+      "roomChoiceSources": [
+        "detail-dune-v2-640.webp",
+        "detail-courtyard-v2-640.webp",
+        "detail-atlantic-v2-640.webp",
+        "detail-suite-v2-640.webp"
+      ]
+    },
+    {
+      "route": "room-suite",
+      "width": 390,
+      "loadEventEndMs": 382,
+      "resourceTransferBytes": 716721,
+      "photoTransferBytes": 481004,
+      "photoRequests": 5,
+      "remoteRequests": [],
+      "brokenImages": 0,
+      "heroSource": null,
+      "roomChoiceSources": []
+    }
+  ]
+}

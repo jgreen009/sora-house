@@ -1,0 +1,638 @@
+[
+  {
+    "key": "house-exterior",
+    "job_id": "03c3bfb1-edce-4a4a-912d-935a34e8ff01",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151046_03c3bfb1-edce-4a4a-912d-935a34e8ff01.png",
+    "original": {
+      "file": "originals/house-exterior.png",
+      "width": 2736,
+      "height": 1536
+    },
+    "variants": [
+      {
+        "file": "house-exterior-640.webp",
+        "width": 640,
+        "height": 359,
+        "bytes": 37348
+      },
+      {
+        "file": "house-exterior-1120.webp",
+        "width": 1120,
+        "height": 629,
+        "bytes": 106826
+      },
+      {
+        "file": "house-exterior-1920.webp",
+        "width": 1920,
+        "height": 1078,
+        "bytes": 311132
+      },
+      {
+        "file": "house-exterior-2736.webp",
+        "width": 2736,
+        "height": 1536,
+        "bytes": 745676
+      }
+    ]
+  },
+  {
+    "key": "room-dune",
+    "job_id": "5f4ad937-f6fe-450e-b42b-bb9294eecd89",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151416_5f4ad937-f6fe-450e-b42b-bb9294eecd89.png",
+    "original": {
+      "file": "originals/room-dune.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "room-dune-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 30030
+      },
+      {
+        "file": "room-dune-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 77812
+      },
+      {
+        "file": "room-dune-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 155794
+      }
+    ]
+  },
+  {
+    "key": "room-courtyard",
+    "job_id": "35ed9bfd-d315-438f-a3ef-7ac0ba0b5088",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151417_35ed9bfd-d315-438f-a3ef-7ac0ba0b5088.png",
+    "original": {
+      "file": "originals/room-courtyard.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "room-courtyard-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 35286
+      },
+      {
+        "file": "room-courtyard-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 94102
+      },
+      {
+        "file": "room-courtyard-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 184462
+      }
+    ]
+  },
+  {
+    "key": "room-atlantic",
+    "job_id": "72ce077b-f504-4a5d-8b15-27d110498c45",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151801_72ce077b-f504-4a5d-8b15-27d110498c45.png",
+    "original": {
+      "file": "originals/room-atlantic.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "room-atlantic-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 31122
+      },
+      {
+        "file": "room-atlantic-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 80766
+      },
+      {
+        "file": "room-atlantic-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 155654
+      }
+    ]
+  },
+  {
+    "key": "room-suite",
+    "job_id": "2652fa55-f9a3-427d-96c5-dcbf8fc52de9",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151422_2652fa55-f9a3-427d-96c5-dcbf8fc52de9.png",
+    "original": {
+      "file": "originals/room-suite.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "room-suite-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 26760
+      },
+      {
+        "file": "room-suite-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 66480
+      },
+      {
+        "file": "room-suite-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 124180
+      }
+    ]
+  },
+  {
+    "key": "detail-dune",
+    "job_id": "74c9433f-2b9c-417b-a859-776cb68d307c",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151801_74c9433f-2b9c-417b-a859-776cb68d307c.png",
+    "original": {
+      "file": "originals/detail-dune.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "detail-dune-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 33194
+      },
+      {
+        "file": "detail-dune-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 95402
+      },
+      {
+        "file": "detail-dune-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 225824
+      }
+    ]
+  },
+  {
+    "key": "detail-courtyard",
+    "job_id": "e56e78fb-d53e-4c79-a0c0-2681833706eb",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151802_e56e78fb-d53e-4c79-a0c0-2681833706eb.png",
+    "original": {
+      "file": "originals/detail-courtyard.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "detail-courtyard-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 44436
+      },
+      {
+        "file": "detail-courtyard-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 128824
+      },
+      {
+        "file": "detail-courtyard-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 262038
+      }
+    ]
+  },
+  {
+    "key": "detail-atlantic",
+    "job_id": "2a15ebfd-37ea-4cde-9c19-3c227cd43247",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151808_2a15ebfd-37ea-4cde-9c19-3c227cd43247.png",
+    "original": {
+      "file": "originals/detail-atlantic.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "detail-atlantic-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 42122
+      },
+      {
+        "file": "detail-atlantic-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 116884
+      },
+      {
+        "file": "detail-atlantic-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 239662
+      }
+    ]
+  },
+  {
+    "key": "detail-suite",
+    "job_id": "dff70d19-2621-4d26-bb7d-316a3aa4267f",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151427_dff70d19-2621-4d26-bb7d-316a3aa4267f.png",
+    "original": {
+      "file": "originals/detail-suite.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "detail-suite-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 31044
+      },
+      {
+        "file": "detail-suite-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 94188
+      },
+      {
+        "file": "detail-suite-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 205352
+      }
+    ]
+  },
+  {
+    "key": "dining-table",
+    "job_id": "b1afc1f0-c978-47b4-a721-6ea4cb5e8799",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151416_b1afc1f0-c978-47b4-a721-6ea4cb5e8799.png",
+    "original": {
+      "file": "originals/dining-table.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "dining-table-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 34840
+      },
+      {
+        "file": "dining-table-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 90750
+      },
+      {
+        "file": "dining-table-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 181318
+      }
+    ]
+  },
+  {
+    "key": "quiet-bath",
+    "job_id": "141a97f5-0e28-419e-8899-cfbb1c0502b2",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151415_141a97f5-0e28-419e-8899-cfbb1c0502b2.png",
+    "original": {
+      "file": "originals/quiet-bath.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "quiet-bath-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 20058
+      },
+      {
+        "file": "quiet-bath-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 50108
+      },
+      {
+        "file": "quiet-bath-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 96212
+      }
+    ]
+  },
+  {
+    "key": "coastal-path",
+    "job_id": "7334319b-7f38-499d-9bd5-3f9836f90c2d",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151416_7334319b-7f38-499d-9bd5-3f9836f90c2d.png",
+    "original": {
+      "file": "originals/coastal-path.png",
+      "width": 3136,
+      "height": 1344
+    },
+    "variants": [
+      {
+        "file": "coastal-path-640.webp",
+        "width": 640,
+        "height": 274,
+        "bytes": 33526
+      },
+      {
+        "file": "coastal-path-1120.webp",
+        "width": 1120,
+        "height": 480,
+        "bytes": 100750
+      },
+      {
+        "file": "coastal-path-1600.webp",
+        "width": 1600,
+        "height": 686,
+        "bytes": 216876
+      }
+    ]
+  },
+  {
+    "key": "lime-plaster",
+    "job_id": "ac84723c-7d86-469a-87ed-8bbd3cf2ed24",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151417_ac84723c-7d86-469a-87ed-8bbd3cf2ed24.png",
+    "original": {
+      "file": "originals/lime-plaster.png",
+      "width": 1824,
+      "height": 2288
+    },
+    "variants": [
+      {
+        "file": "lime-plaster-640.webp",
+        "width": 640,
+        "height": 803,
+        "bytes": 24246
+      },
+      {
+        "file": "lime-plaster-1120.webp",
+        "width": 1120,
+        "height": 1405,
+        "bytes": 89564
+      },
+      {
+        "file": "lime-plaster-1600.webp",
+        "width": 1600,
+        "height": 2007,
+        "bytes": 228184
+      }
+    ]
+  },
+  {
+    "key": "arrival-path",
+    "job_id": "b1dbd255-700f-4511-9098-100e03d3c4e0",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151803_b1dbd255-700f-4511-9098-100e03d3c4e0.png",
+    "original": {
+      "file": "originals/arrival-path.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "arrival-path-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 49774
+      },
+      {
+        "file": "arrival-path-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 159434
+      },
+      {
+        "file": "arrival-path-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 335344
+      }
+    ]
+  },
+  {
+    "key": "facade-detail",
+    "job_id": "27097652-7ed0-458b-86be-af16352ccb0f",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151806_27097652-7ed0-458b-86be-af16352ccb0f.png",
+    "original": {
+      "file": "originals/facade-detail.png",
+      "width": 1824,
+      "height": 2288
+    },
+    "variants": [
+      {
+        "file": "facade-detail-640.webp",
+        "width": 640,
+        "height": 803,
+        "bytes": 63006
+      },
+      {
+        "file": "facade-detail-1120.webp",
+        "width": 1120,
+        "height": 1405,
+        "bytes": 204750
+      },
+      {
+        "file": "facade-detail-1600.webp",
+        "width": 1600,
+        "height": 2007,
+        "bytes": 428496
+      }
+    ]
+  },
+  {
+    "key": "oak-detail",
+    "job_id": "558fc5ef-b0b2-4d92-874c-a942fc06d0c0",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151802_558fc5ef-b0b2-4d92-874c-a942fc06d0c0.png",
+    "original": {
+      "file": "originals/oak-detail.png",
+      "width": 2048,
+      "height": 2048
+    },
+    "variants": [
+      {
+        "file": "oak-detail-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 45332
+      },
+      {
+        "file": "oak-detail-1120.webp",
+        "width": 1120,
+        "height": 1120,
+        "bytes": 172730
+      },
+      {
+        "file": "oak-detail-1600.webp",
+        "width": 1600,
+        "height": 1600,
+        "bytes": 341686
+      }
+    ]
+  },
+  {
+    "key": "linen-detail",
+    "job_id": "3682149d-cbe2-483f-aade-65ca59c0ba1c",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_151803_3682149d-cbe2-483f-aade-65ca59c0ba1c.png",
+    "original": {
+      "file": "originals/linen-detail.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "linen-detail-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 30188
+      },
+      {
+        "file": "linen-detail-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 76148
+      },
+      {
+        "file": "linen-detail-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 154646
+      }
+    ]
+  },
+  {
+    "key": "detail-dune-v2",
+    "job_id": "6a5fcb28-4fb8-47a4-9726-a4e4c03662ce",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_152709_6a5fcb28-4fb8-47a4-9726-a4e4c03662ce.png",
+    "original": {
+      "file": "originals/detail-dune-v2.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "detail-dune-v2-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 44438
+      },
+      {
+        "file": "detail-dune-v2-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 132700
+      },
+      {
+        "file": "detail-dune-v2-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 294676
+      }
+    ]
+  },
+  {
+    "key": "detail-courtyard-v2",
+    "job_id": "4e4b538b-5faa-4895-92e1-aedbde458997",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_152700_4e4b538b-5faa-4895-92e1-aedbde458997.png",
+    "original": {
+      "file": "originals/detail-courtyard-v2.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "detail-courtyard-v2-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 43178
+      },
+      {
+        "file": "detail-courtyard-v2-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 118606
+      },
+      {
+        "file": "detail-courtyard-v2-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 240490
+      }
+    ]
+  },
+  {
+    "key": "detail-atlantic-v2",
+    "job_id": "1876cebc-164b-4bdd-aab7-fb8a6949ef4e",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_152659_1876cebc-164b-4bdd-aab7-fb8a6949ef4e.png",
+    "original": {
+      "file": "originals/detail-atlantic-v2.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "detail-atlantic-v2-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 33148
+      },
+      {
+        "file": "detail-atlantic-v2-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 83780
+      },
+      {
+        "file": "detail-atlantic-v2-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 166272
+      }
+    ]
+  },
+  {
+    "key": "detail-suite-v2",
+    "job_id": "dd652340-b782-415c-bfaa-a94f265397ae",
+    "source_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3B2EesCeKoh6V5jCIC5fNIABiTX/hf_20261030_152810_dd652340-b782-415c-bfaa-a94f265397ae.png",
+    "original": {
+      "file": "originals/detail-suite-v2.png",
+      "width": 2368,
+      "height": 1776
+    },
+    "variants": [
+      {
+        "file": "detail-suite-v2-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 27550
+      },
+      {
+        "file": "detail-suite-v2-1120.webp",
+        "width": 1120,
+        "height": 840,
+        "bytes": 65426
+      },
+      {
+        "file": "detail-suite-v2-1600.webp",
+        "width": 1600,
+        "height": 1200,
+        "bytes": 134050
+      }
+    ]
+  }
+]

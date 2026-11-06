@@ -1,0 +1,17 @@
+{
+  "name": "sora-house",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sora House hotel website",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "build": "node tools/build-site.mjs",
+    "test": "node tools/verify-deployment.mjs",
+    "preview": "node tools/serve-production.mjs",
+    "dev": "node tools/serve.mjs",
+    "test:browser": "node tools/validate-site.mjs --production",
+    "test:metadata": "node tools/verify-metadata.mjs"
+  }
+}

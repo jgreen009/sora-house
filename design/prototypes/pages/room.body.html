@@ -1,0 +1,133 @@
+<section class="room-heading"><div class="container"><a class="link room-heading__back" href="rooms.html"><span aria-hidden="true">←</span> All rooms</a><div class="room-heading__inner"><div><span class="eyebrow">{{CATEGORY}} · {{VIEW}} outlook</span><h1 class="display-l">{{NAME}}</h1></div><div class="room-heading__aside"><p><b>€{{RATE}}</b> <span>per night</span></p><a class="link" href="#room-dates">Plan your stay <span class="arrow">↗</span></a></div></div></div></section>
+<!-- ====================================================== ROOM GALLERY -->
+<section class="section section--tight room-gallery-section">
+  <div class="container">
+    <div class="room-gallery">
+      <div class="room-gallery__main reveal">
+        <button type="button" aria-label="View photos of {{NAME}}" class="room-gallery__open" data-lightbox="room" data-full="{{MAIN_FULL}}" data-alt="{{MAIN_ALT}}" data-caption="{{NAME}} — main view" data-meta="{{AREA}} m² · sleeps {{GUESTS}}">
+          <span class="figure figure--4x3">
+            <img src="{{MAIN}}" alt="{{MAIN_ALT}}" width="1400" height="1750" fetchpriority="high">
+          </span>
+          <span class="room-gallery__expand" aria-hidden="true">Expand</span>
+        </button>
+      </div>
+      <div class="room-gallery__side">
+        {{SECONDARY}}
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================================================== ROOM HERO -->
+<section class="section section--tight" style="padding-top:0">
+  <div class="container">
+    <div class="split split--text-right" style="align-items:start">
+      <div class="split__body reveal" style="grid-column:1 / span 6">
+        <span class="eyebrow">{{CATEGORY}} · {{VIEW}} view</span>
+        <h2 class="display-m" style="margin:16px 0 24px">Inside the {{NAME}}</h2>
+        <p class="lede" style="max-width:30ch;margin-bottom:32px">{{SHORT}}</p>
+        <div class="room-spec-strip">
+          <div><b>{{AREA}} m²</b><span>Floor area</span></div>
+          <div><b>{{GUESTS}}</b><span>Guests</span></div>
+          <div><b>{{UNITS}}</b><span>{{ROOMS_LABEL}}</span></div>
+          <div><b>€{{RATE}}</b><span>Per night</span></div>
+        </div>
+      </div>
+      <div class="split__media reveal" data-delay="1" style="grid-column:8 / span 5">
+        <div class="panel panel--dark" id="room-dates">
+          <span class="eyebrow">Availability</span>
+          <p class="display-s" style="margin:16px 0 12px">Check your dates</p>
+          <p class="panel__hint">Nightly rates include breakfast.</p>
+          <form action="book.html" method="get" style="display:grid;gap:18px">
+            <input type="hidden" name="room" value="{{SLUG}}">
+            <div class="field--inline">
+              <label for="room-arrival">Arrival</label>
+              <input type="date" id="room-arrival" name="arrival" required >
+            </div>
+            <div class="field--inline">
+              <label for="room-departure">Departure</label>
+              <input type="date" id="room-departure" name="departure" required >
+            </div>
+            <div class="field--inline">
+              <label for="room-guests">Guests</label>
+              <select id="room-guests" name="guests">
+                <option>1 guest</option>
+                <option selected>2 guests</option>
+                {{EXTRA_GUESTS}}
+              </select>
+            </div>
+            <button class="btn btn--light btn--block" type="submit">Check availability</button>
+            <p class="body-s" style="color:var(--c-ivory-70);margin-top:-4px">Online reservations are not yet available.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ STORY -->
+<section class="section">
+  <div class="container">
+    <div class="split-note">
+      <div class="split-note__label"><span class="eyebrow">The room</span></div>
+      <div class="split-note__body">
+        <p class="lede" style="max-width:32ch;margin-bottom:32px">{{DESCRIPTION}}</p>
+        <div class="prose">
+          <p>{{STORY}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================== FEATURES & AMENITIES -->
+<section class="section section--tight section--sand">
+  <div class="container">
+    <div class="split split--text-left" style="align-items:start">
+      <div class="split__body reveal">
+        <span class="eyebrow">In the room</span>
+        <h2 class="display-m" style="margin:16px 0 24px">What you will find</h2>
+        <ul class="feature-list">
+          {{FEATURES}}
+        </ul>
+      </div>
+      <div class="split__media reveal" data-delay="1">
+        <div class="panel" style="background:var(--c-ivory)">
+          <span class="eyebrow">Included in every stay</span>
+          <ul class="feature-list feature-list--compact" style="margin-top:20px">
+            {{AMENITIES}}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================================================== CLOSING BOOKING -->
+<section class="section">
+  <div class="container">
+    <div class="split-note">
+      <div class="split-note__label"><span class="eyebrow">Next</span></div>
+      <div class="split-note__body">
+        <h2 class="display-m" style="margin-bottom:24px">Stay in the {{NAME}}</h2>
+        <p class="prose" style="margin-bottom:32px">€{{RATE}} per night, including breakfast. Explore your dates and room choice.</p>
+        <a class="btn" href="book.html?room={{SLUG}}">Check availability</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================== RELATED -->
+<section class="section section--tight" style="padding-bottom:128px">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-head__label"><span class="eyebrow">Also in the house</span></div>
+      <div class="section-head__title"><h2 class="display-m">You might also like</h2></div>
+    </div>
+    <div class="room-grid">
+      {{RELATED}}
+    </div>
+  </div>
+</section>
+
+{{LIGHTBOX}}

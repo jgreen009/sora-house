@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.classList.add('has-js')</script>
+<title>Book Your Stay — Sora House</title>
+<meta name="description" content="Choose your dates and room, and review the cost of a stay at Sora House.">
+<meta name="theme-color" content="#304444">
+<meta property="og:title" content="Book Your Stay — Sora House">
+<meta property="og:description" content="Choose your dates and room, and review the cost of a stay at Sora House.">
+<meta property="og:image" content="../../assets/branding/social-preview.svg">
+<link rel="icon" href="../../assets/branding/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../../assets/fonts/fonts.css">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/sora.css">
+<link rel="stylesheet" href="css/components.css">
+</head>
+<body class="page-book header-solid">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="site-header__inner container">
+    <a class="site-header__brand" href="index.html" aria-label="Sora House — home">
+      <img class="brand brand--light" src="../../assets/branding/wordmark-horizontal-ivory.svg" alt="Sora House" width="190" height="33">
+      <img class="brand brand--dark" src="../../assets/branding/wordmark-horizontal-ink.svg" alt="" width="190" height="33">
+      <span>Atlantic coast, Portugal</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="rooms.html">Stay</a>
+      <a href="experiences.html">Experiences</a>
+      <a href="about.html">Our Story</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+    <a class="header-cta" href="book.html">Book your stay</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu" inert>
+  <nav aria-label="Mobile">
+    <a href="rooms.html">Stay</a>
+    <a href="experiences.html">Experiences</a>
+    <a href="about.html">Our Story</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="mobile-menu__foot">
+    <span>Twelve rooms · Atlantic coast, Portugal</span>
+    <span>Atlantic coast, Portugal</span>
+  </div>
+  <a class="btn btn--block" href="book.html">Book your stay</a>
+</div>
+
+<main id="main" tabindex="-1">
+<noscript><div class="container"><p class="notice no-script-notice">Enable JavaScript to use room planning and image controls. You can still browse the house and rooms.</p></div></noscript>
+<section class="page-head">
+  <div class="container">
+    <div class="page-head__inner">
+      <div class="page-head__title reveal">
+        <span class="eyebrow">Book your stay</span>
+        <h1 class="display-l" style="margin-top:16px">Make time for a stay</h1>
+      </div>
+      <div class="page-head__aside reveal" data-delay="1">
+        <p class="body-s text-muted">Choose your dates and room to review your stay. Online reservations are not yet available.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight" style="padding-top:0">
+  <div class="container">
+    <div class="booking-layout" data-booking>
+      <!-- ---------------------------------------------------- main -->
+      <div class="booking-main">
+        <div class="progress" role="list" aria-label="Booking progress">
+          <div class="progress__step" role="listitem" data-step="1"><b>1</b> Dates</div>
+          <span class="progress__bar" aria-hidden="true"></span>
+          <div class="progress__step" role="listitem" data-step="2"><b>2</b> Room</div>
+          <span class="progress__bar" aria-hidden="true"></span>
+          <div class="progress__step" role="listitem" data-step="3"><b>3</b> Review</div>
+          <span class="progress__bar" aria-hidden="true"></span>
+          <div class="progress__step" role="listitem" data-step="4"><b>4</b> Details</div>
+        </div>
+
+        <div class="steps">
+          <!-- STEP 1 -->
+          <div class="step-panel is-active" data-step="1">
+            <div class="panel">
+              <h2 class="display-s panel__title">When will you stay?</h2>
+              <p class="panel__hint">Arrival can be today or later. Stays run from one to fourteen nights, one room per booking.</p>
+              <div class="field-grid">
+                <div class="field--inline">
+                  <label for="bk-arrival">Arrival</label>
+                  <input type="date" id="bk-arrival" data-field="checkin" aria-describedby="error-checkin" >
+                  <p class="error" id="error-checkin" data-error="checkin" role="alert"></p>
+                </div>
+                <div class="field--inline">
+                  <label for="bk-departure">Departure</label>
+                  <input type="date" id="bk-departure" data-field="checkout" aria-describedby="error-checkout" >
+                  <p class="error" id="error-checkout" data-error="checkout" role="alert"></p>
+                </div>
+                <div class="field--inline field--full">
+                  <label for="bk-guests">Guests</label>
+                  <select id="bk-guests" data-field="guests" aria-describedby="error-guests">
+                    <option>1</option>
+                    <option selected>2</option>
+                    <option>3</option>
+                  </select>
+                  <p class="hint">The Sora Suite sleeps three. All other rooms sleep two.</p>
+                  <p class="error" id="error-guests" data-error="guests" role="alert"></p>
+                </div>
+              </div>
+              <div class="step-actions">
+                <span></span>
+                <button class="btn" type="button" data-next data-validate>See the rooms</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 2 -->
+          <div class="step-panel" data-step="2">
+            <div class="panel">
+              <h2 class="display-s panel__title">Choose your room</h2>
+              <p class="panel__hint">Choose a room for your stay. Nightly rates include breakfast.</p>
+
+              <button class="room-option" type="button" data-room="dune" aria-pressed="false" aria-describedby="room-choice-error">
+  <span class="figure figure--4x3"><img src="../../assets/photography/web/detail-dune-v2-1600.webp" srcset="../../assets/photography/web/detail-dune-v2-640.webp 640w, ../../assets/photography/web/detail-dune-v2-1120.webp 1120w, ../../assets/photography/web/detail-dune-v2-1600.webp 1600w" sizes="(max-width: 600px) 80px, 120px" decoding="async" alt="Dune Room" width="1600" height="1200" loading="lazy"></span>
+  <span><span class="room-option__title">Dune Room</span><span class="room-option__meta">26 m² · sleeps 2 · garden view</span><span class="room-option__status" data-room-status>View room</span></span>
+  <span class="room-option__price"><b>€180</b><span>per night</span></span>
+</button>
+<button class="room-option" type="button" data-room="courtyard" aria-pressed="false" aria-describedby="room-choice-error">
+  <span class="figure figure--4x3"><img src="../../assets/photography/web/detail-courtyard-v2-1600.webp" srcset="../../assets/photography/web/detail-courtyard-v2-640.webp 640w, ../../assets/photography/web/detail-courtyard-v2-1120.webp 1120w, ../../assets/photography/web/detail-courtyard-v2-1600.webp 1600w" sizes="(max-width: 600px) 80px, 120px" decoding="async" alt="Courtyard Room" width="1600" height="1200" loading="lazy"></span>
+  <span><span class="room-option__title">Courtyard Room</span><span class="room-option__meta">32 m² · sleeps 2 · courtyard view</span><span class="room-option__status" data-room-status>View room</span></span>
+  <span class="room-option__price"><b>€230</b><span>per night</span></span>
+</button>
+<button class="room-option" type="button" data-room="atlantic" aria-pressed="false" aria-describedby="room-choice-error">
+  <span class="figure figure--4x3"><img src="../../assets/photography/web/detail-atlantic-v2-1600.webp" srcset="../../assets/photography/web/detail-atlantic-v2-640.webp 640w, ../../assets/photography/web/detail-atlantic-v2-1120.webp 1120w, ../../assets/photography/web/detail-atlantic-v2-1600.webp 1600w" sizes="(max-width: 600px) 80px, 120px" decoding="async" alt="Atlantic Room" width="1600" height="1200" loading="lazy"></span>
+  <span><span class="room-option__title">Atlantic Room</span><span class="room-option__meta">38 m² · sleeps 2 · atlantic view</span><span class="room-option__status" data-room-status>View room</span></span>
+  <span class="room-option__price"><b>€310</b><span>per night</span></span>
+</button>
+<button class="room-option" type="button" data-room="suite" aria-pressed="false" aria-describedby="room-choice-error">
+  <span class="figure figure--4x3"><img src="../../assets/photography/web/detail-suite-v2-1600.webp" srcset="../../assets/photography/web/detail-suite-v2-640.webp 640w, ../../assets/photography/web/detail-suite-v2-1120.webp 1120w, ../../assets/photography/web/detail-suite-v2-1600.webp 1600w" sizes="(max-width: 600px) 80px, 120px" decoding="async" alt="Sora Suite" width="1600" height="1200" loading="lazy"></span>
+  <span><span class="room-option__title">Sora Suite</span><span class="room-option__meta">54 m² · sleeps 3 · atlantic view</span><span class="room-option__status" data-room-status>View room</span></span>
+  <span class="room-option__price"><b>€430</b><span>per night</span></span>
+</button>
+              <p class="booking-error" id="room-choice-error" data-room-error role="alert"></p>
+              <p class="body-s text-muted">Room choices are shown by guest capacity. Availability will need to be confirmed when reservations open.</p>
+
+              <div class="step-actions">
+                <button class="btn btn--ghost" type="button" data-prev>Back</button>
+                <button class="btn" type="button" data-next>Review your stay</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 3 -->
+          <div class="step-panel" data-step="3">
+            <div class="panel">
+              <h2 class="display-s panel__title">Review your stay</h2>
+              <p class="panel__hint">Review your room, dates, and total below. Contact details are optional and are not sent.</p>
+              <div class="field-grid">
+                <div class="field--inline">
+                  <label for="bk-name">Name</label>
+                  <input type="text" id="bk-name" placeholder="Optional">
+                </div>
+                <div class="field--inline">
+                  <label for="bk-email">Email</label>
+                  <input type="email" id="bk-email" placeholder="Optional">
+                </div>
+                <div class="field--inline field--full">
+                  <label for="bk-note">Anything we should know?</label>
+                  <textarea id="bk-note" placeholder="A late arrival, a dietary note, a birthday."></textarea>
+                </div>
+              </div>
+
+              <div class="stay-card" style="margin-top:32px">
+                <div class="stay-card__row"><span>Room</span><span data-summary-room>—</span></div>
+                <div class="stay-card__row"><span>Arrival</span><span data-summary-in>—</span></div>
+                <div class="stay-card__row"><span>Departure</span><span data-summary-out>—</span></div>
+                <div class="stay-card__row"><span>Length of stay</span><span data-nights>—</span></div>
+                <div class="stay-card__row"><span>Guests</span><span data-summary-guests>2</span></div>
+                <div class="stay-card__row"><span>Rate</span><span data-rate>—</span></div>
+                <div class="stay-card__row total"><span>Total, including breakfast</span><b data-total>—</b></div>
+              </div>
+
+              <div class="step-actions">
+                <button class="btn btn--ghost" type="button" data-prev>Back</button>
+                <button class="btn" type="button" data-next>Continue</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 4 -->
+          <div class="step-panel" data-step="4">
+            <div class="panel">
+              <h2 class="display-s panel__title">Review your stay details</h2>
+              <p class="panel__hint">Keep your selected room, dates, and price together in one place.</p>
+
+              <div class="notice notice--info">
+                <strong>Online reservations are not yet available.</strong> Viewing these details does not reserve a room or take a payment.
+              </div>
+
+              <ul class="status-list">
+                <li>Your selected room must have space for everyone in your party.</li>
+                <li>Your total is the nightly room rate multiplied by the length of your stay.</li>
+                <li>Rates are shown in euro and include breakfast. No payment is taken on this website.</li>
+              </ul>
+
+              <div class="step-actions">
+                <button class="btn btn--ghost" type="button" data-prev>Back</button>
+                <button class="btn" type="button" data-confirm>View stay details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ---------------------------------------------------- side -->
+      <aside class="booking-side" aria-label="Stay summary">
+        <details class="panel panel--dark summary-disclosure" open>
+          <summary><span class="eyebrow">Your stay</span><span class="display-s" data-summary-compact>Choose your room</span><span class="summary-disclosure__hint">Stay details <span aria-hidden="true">+</span></span></summary>
+          <div class="summary-disclosure__body">
+          <div class="stay-card" style="border-color:var(--c-line-dark);padding:0;border:0">
+            <div class="stay-card__row"><span style="color:var(--c-ivory-70)">Room</span><span data-summary-room>—</span></div>
+            <div class="stay-card__row"><span style="color:var(--c-ivory-70)">Arrival</span><span data-summary-in>—</span></div>
+            <div class="stay-card__row"><span style="color:var(--c-ivory-70)">Departure</span><span data-summary-out>—</span></div>
+            <div class="stay-card__row"><span style="color:var(--c-ivory-70)">Nights</span><span data-nights>—</span></div>
+            <div class="stay-card__row"><span style="color:var(--c-ivory-70)">Guests</span><span data-summary-guests>2</span></div>
+            <div class="stay-card__row"><span style="color:var(--c-ivory-70)">Rate</span><span data-rate>—</span></div>
+            <div class="stay-card__row total" style="border-color:var(--c-line-dark)"><span style="color:var(--c-ivory-70)">Total</span><b data-total>—</b></div>
+          </div>
+          <p class="body-s" style="color:var(--c-ivory-70);margin-top:24px">Rates in EUR, including breakfast. No payment is taken.</p>
+          </div>
+        </details>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="split-note">
+      <div class="split-note__label"><span class="eyebrow">Questions</span></div>
+      <div class="split-note__body">
+        <h2 class="display-m" style="margin-bottom:20px">Before you book</h2>
+        <div class="prose" style="margin-bottom:24px">
+          <p>Arrival can be today or later in Portugal's local time. Choose one to fourteen nights and one room for up to three guests. The Sora Suite sleeps three; all other rooms sleep two. Reservations are not yet available online.</p>
+        </div>
+        <a class="link" href="contact.html">Ask a question <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__top">
+      <div class="site-footer__brand">
+        <img src="../../assets/branding/wordmark-horizontal-ivory.svg" alt="Sora House" width="200" height="35">
+        <p>Twelve rooms on the Atlantic coast of Portugal, made for people who would rather take their time.</p>
+        <div class="site-footer__mark">
+          <svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true">
+            <g fill="none" stroke="#F5F1E9" stroke-width="2.6" stroke-linecap="round">
+              <circle cx="32" cy="32" r="19.5"/><path d="M0 38.5 H11.5"/><path d="M52.5 38.5 H64"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="site-footer__cols">
+        <div>
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="rooms.html">Rooms & suites</a></li>
+            <li><a href="experiences.html">Experiences</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">Our story</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Plan</h3>
+          <ul>
+            <li><a href="book.html">Book your stay</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html#faq">Questions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© 2026 Sora House. All rights reserved.</span>
+      <span>Twelve rooms · Atlantic coast, Portugal</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/room-data.js"></script>
+<script src="js/sora.js"></script>
+</body>
+</html>

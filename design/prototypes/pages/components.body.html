@@ -1,0 +1,177 @@
+<section class="page-head">
+  <div class="container">
+    <div class="page-head__inner">
+      <div class="page-head__title reveal">
+        <span class="eyebrow">Design system</span>
+        <h1 class="display-l" style="margin-top:16px">Component preview</h1>
+      </div>
+      <div class="page-head__aside reveal" data-delay="1">
+        <p class="body-s text-muted">Every component below is built from the tokens in <span style="font-family:var(--font-display)">css/tokens.css</span>. Sizes are specified in <span style="font-family:var(--font-display)">documentation/design-system.md</span>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight" style="padding-top:0">
+  <div class="container">
+
+    <div class="section-head"><div class="section-head__label"><span class="eyebrow">Buttons & links</span></div></div>
+    <div class="component-row">
+      <div class="btn">Primary</div>
+      <div class="btn btn--ghost">Secondary</div>
+      <div class="btn" aria-disabled="true" style="opacity:.45">Disabled</div>
+      <span class="link">Text link <span class="arrow">→</span></span>
+    </div>
+    <div class="component-row" style="background:var(--c-coastal);padding:32px;border-radius:2px">
+      <div class="btn btn--light">Primary on dark</div>
+      <div class="btn btn--outline-light">Secondary on dark</div>
+      <span class="link link--on-dark">Text link on dark <span class="arrow">→</span></span>
+    </div>
+
+    <hr class="rule" style="margin:64px 0">
+
+    <div class="section-head"><div class="section-head__label"><span class="eyebrow">Typography</span></div></div>
+    <div class="type-specimen">
+      <p class="eyebrow">Eyebrow · 12px · .16em</p>
+      <h2 class="display-xl" style="margin:12px 0 8px">Some places ask you to slow down.</h2>
+      <p class="body-s text-muted" style="margin-bottom:24px">Display XL — Instrument Serif 104/1.02, tracking −.02em</p>
+      <h3 class="display-m" style="margin-bottom:8px">Display M — section heading</h3>
+      <p class="body-s text-muted" style="margin-bottom:24px">Display M — Instrument Serif 52/1.12</p>
+      <p class="lede" style="margin-bottom:12px">Editorial introduction — Instrument Serif 26/1.55</p>
+      <p class="body-s text-muted" style="margin-bottom:24px">Lede — 26px serif, max 34ch</p>
+      <p style="margin-bottom:8px">Body copy is set in DM Sans at 17px with a line height of 1.7 and a maximum measure of 62 characters. It should read at a comfortable pace and never feel like a brochure.</p>
+      <p class="body-s text-muted">Body — DM Sans 17/1.7, weight 300</p>
+    </div>
+
+    <hr class="rule" style="margin:64px 0">
+
+    <div class="section-head"><div class="section-head__label"><span class="eyebrow">Colour</span></div></div>
+    <div class="swatch-grid">
+      <div class="swatch" style="background:#F5F1E9"><span>Warm Ivory</span><code>#F5F1E9</code></div>
+      <div class="swatch" style="background:#DDD0BD"><span>Sandstone</span><code>#DDD0BD</code></div>
+      <div class="swatch" style="background:#B69979"><span>Warm Taupe</span><code>#B69979</code></div>
+      <div class="swatch" style="background:#304444;color:#F5F1E9"><span>Deep Coastal</span><code>#304444</code></div>
+      <div class="swatch" style="background:#282824;color:#F5F1E9"><span>Soft Charcoal</span><code>#282824</code></div>
+      <div class="swatch" style="background:#CFCABB"><span>Ivory 70</span><code>#CFCABB</code></div>
+      <div class="swatch" style="background:#8A6A4B;color:#F5F1E9"><span>Accent / focus</span><code>#8A6A4B</code></div>
+      <div class="swatch" style="background:#8C3A2B;color:#F5F1E9"><span>Error</span><code>#8C3A2B</code></div>
+    </div>
+
+    <hr class="rule" style="margin:64px 0">
+
+    <div class="section-head"><div class="section-head__label"><span class="eyebrow">Form states</span></div></div>
+    <div class="component-grid">
+      <div class="field--inline">
+        <label for="comp-1">Default</label>
+        <input type="text" id="comp-1" placeholder="Text">
+        <p class="hint">Supporting hint text.</p>
+      </div>
+      <div class="field--inline has-error">
+        <label for="comp-2">Error</label>
+        <input type="text" id="comp-2" value="12/11" aria-invalid="true">
+        <p class="error">Choose an arrival date.</p>
+      </div>
+      <div class="field--inline">
+        <label for="comp-3">Disabled</label>
+        <input type="text" id="comp-3" value="Not available" disabled>
+        <p class="hint">Used for unavailable dates and sold-out options.</p>
+      </div>
+      <div class="field--inline">
+        <label for="comp-4">Success</label>
+        <input type="text" id="comp-4" value="14 November 2026" style="border-color:var(--c-success)">
+        <p class="hint" style="color:var(--c-success)">Date confirmed.</p>
+      </div>
+    </div>
+
+    <hr class="rule" style="margin:64px 0">
+
+    <div class="section-head"><div class="section-head__label"><span class="eyebrow">Status & notices</span></div></div>
+    <div class="component-row">
+      <span class="badge badge--available">Available</span>
+      <span class="badge badge--limited">One left</span>
+      <span class="badge badge--none">Not available</span>
+    </div>
+    <div class="component-stack">
+      <div class="notice notice--info"><strong>Online reservations.</strong> Online reservations are not yet available.</div>
+      <div class="notice notice--error">Departure must be after arrival.</div>
+    </div>
+
+    <hr class="rule" style="margin:64px 0">
+
+    <div class="section-head"><div class="section-head__label"><span class="eyebrow">Room card</span></div></div>
+    <div class="room-grid">
+      <article class="room-card room-card--half">
+        <a href="room-atlantic.html">
+          <span class="room-card__index">01 · Atlantic</span>
+          <div class="figure figure--3x2">
+            <img src="../../assets/rooms/atlantic-room-main.svg" alt="Atlantic Room" width="1400" height="1750" loading="lazy">
+          </div>
+          <h3 class="display-s room-card__title" style="margin-top:24px">Atlantic Room</h3>
+          <p class="room-card__desc">A wide west-facing window, a deep terrace, and the last hour of light to yourself.</p>
+          <div class="room-card__spec">
+            <span><b>38 m²</b></span><span><b>2</b> guests</span><span class="room-card__rate"><b>€310</b> per night</span>
+          </div>
+          <span class="link room-card__action">View room <span class="arrow">→</span></span>
+        </a>
+      </article>
+    </div>
+
+    <hr class="rule" style="margin:64px 0">
+
+    <div class="section-head"><div class="section-head__label"><span class="eyebrow">Booking components</span></div></div>
+    <div class="component-grid">
+      <div>
+        <div class="progress">
+          <div class="progress__step is-current"><b>1</b> Dates</div>
+          <span class="progress__bar"></span>
+          <div class="progress__step is-done"><b>2</b> Room</div>
+          <span class="progress__bar"></span>
+          <div class="progress__step"><b>3</b> Review</div>
+        </div>
+        <div class="stay-card">
+          <div class="stay-card__row"><span>Room</span><span>Atlantic Room</span></div>
+          <div class="stay-card__row"><span>Length of stay</span><span>3 nights</span></div>
+          <div class="stay-card__row total"><span>Total</span><b>€930</b></div>
+        </div>
+      </div>
+      <div class="room-option is-selected" data-room="atlantic">
+        <div class="figure figure--1x1"><img src="../../assets/rooms/atlantic-room-02.svg" alt="Atlantic Room" width="1400" height="1050" loading="lazy"></div>
+        <div>
+          <h3 class="room-option__title">Atlantic Room</h3>
+          <p class="room-option__meta">38 m² · sleeps 2 · private terrace</p>
+          <span class="badge badge--limited">One left</span>
+        </div>
+        <div class="room-option__price"><b>€310</b><span>per night</span></div>
+      </div>
+    </div>
+
+    <hr class="rule" style="margin:64px 0">
+
+    <div class="section-head"><div class="section-head__label"><span class="eyebrow">Accordion</span></div></div>
+    <div class="accordion">
+      <div class="accordion__item">
+        <button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="comp-faq-1">How many nights can I stay?</button>
+        <div class="accordion__panel" id="comp-faq-1"><p>Between one and fourteen nights. Longer stays are welcome in conversation.</p></div>
+      </div>
+    </div>
+
+    <hr class="rule" style="margin:64px 0">
+
+    <div class="section-head"><div class="section-head__label"><span class="eyebrow">Brand assets</span></div></div>
+    <div class="component-grid">
+      <div class="panel" style="text-align:center">
+        <img src="../../assets/branding/wordmark-horizontal-ink.svg" alt="Sora House wordmark" style="width:220px;margin:0 auto">
+      </div>
+      <div class="panel" style="text-align:center;background:var(--c-coastal)">
+        <img src="../../assets/branding/wordmark-horizontal-ivory.svg" alt="Sora House wordmark on dark" style="width:220px;margin:0 auto">
+      </div>
+      <div class="panel" style="text-align:center">
+        <img src="../../assets/branding/mark-horizon-ink.svg" alt="Sora House horizon mark" style="width:56px;margin:0 auto">
+      </div>
+      <div class="panel" style="text-align:center;background:var(--c-coastal)">
+        <img src="../../assets/branding/mark-horizon-ivory.svg" alt="Sora House horizon mark on dark" style="width:56px;margin:0 auto">
+      </div>
+    </div>
+
+  </div>
+</section>
